@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import { ContactForm } from "../component/ContactForm";
 
-export const Contact = ( ) =>{
+import '../../styles/contact.css'
+
+export const Contact = () => {
     return (
-        <div>
-            <h1>Contact</h1>
+        <div className="form">
+            {/* <h3 className="text-center mt-4">Contact</h3> */}
+            <h3 id="contact-text" className="">For quotation and questions, please contact us.</h3>
+            <ContactForm />
         </div>
     )
 }
