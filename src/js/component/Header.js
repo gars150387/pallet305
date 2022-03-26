@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
-import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 import '../../styles/header.css'
 
