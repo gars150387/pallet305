@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
+import { CgCopyright } from 'react-icons/cg'
 
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -12,6 +13,7 @@ export const Footer = () => (
 	<div className="footer">
 		<Container className="sticky-bottom" bg="dark" variant="dark">
 			<Row md={4}>
+				<Row></Row>
 				<Col><Link to="./about">
 					<h5 >About</h5>
 				</Link>
@@ -28,10 +30,23 @@ export const Footer = () => (
 						<h5>Payment</h5>
 					</Link></Col>
 				<Col>
-					<a target="_blank" rel="noopener noreferrer"  href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons' /></a>
-					<a target="_blank" rel="noopener noreferrer"  href="https://www.instagram.com/pallet_305/"><FaInstagram id='icons' /></a>
-					<a target="_blank" rel="noopener noreferrer"  href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='icons' /></a>
+					<Row xs="auto">
+						<Col xs lg="2"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='iconsFooter' /></a></Col>
+						<Col xs lg="2"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='iconsFooter' /></a></Col>
+						<Col xs lg="2"><a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' /></a></Col>
+					</Row>
 				</Col>
+			</Row>
+			<Row>
+				<Col></Col>
+				<Col xs={5}>
+					<Row className="justify-content-md-center">
+						<Col xs lg="2"></Col>
+						<Col md="auto"><p>Copyright <CgCopyright /> 2022 Pallet305 </p></Col>
+						<Col xs lg="2"></Col>
+					</Row>
+				</Col>
+				<Col></Col>
 			</Row>
 		</Container>
 	</div>
