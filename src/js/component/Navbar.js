@@ -1,5 +1,8 @@
 import React from "react";
-import {Navbar, Container, Nav } from 'react-bootstrap'
+import { Row, Col, Navbar, Container, Nav } from 'react-bootstrap'
+import { FaFacebookF, FaInstagram } from 'react-icons/fa'
+import { ImWhatsapp } from 'react-icons/im'
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -27,6 +30,20 @@ export const NavbarWebsite = () => {
                             </NavDropdown> */}
                         </Nav>
                     </Navbar.Collapse>
+                    <Col>
+                        <Row className="justify-content-md-center">
+                            <Col xs lg="2">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons' /></a>
+                            </Col>
+                            <Col xs lg="2">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='icons' /></a>
+                            </Col>
+                            <Col xs lg="2">
+                                <a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='icons' /></a>
+                            </Col>
+                        </Row>
+                    </Col>
+
                 </Container>
             </Navbar>
         </div>
