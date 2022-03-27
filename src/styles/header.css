@@ -1,9 +1,11 @@
 body{
     background-color: gray;
 }
-p{
-    margin-top: 50px;
-    margin-left: 50px;
-    padding-top: 50px;
-    padding-left: 150px;
+.div-logo{
+    width: 150px;
+    height: 150px;
+}
+#logo{
+    height: 150px;
+    width: 150px;
 }
