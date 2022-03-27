@@ -28,9 +28,9 @@ export const Footer = () => (
 						<h5>Payment</h5>
 					</Link></Col>
 				<Col>
-					<a href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons' /></a>
-					<a href="https://www.instagram.com/pallet_305/"><FaInstagram id='icons' /></a>
-					<a href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='icons' /></a>
+					<a target="_blank" rel="noopener noreferrer"  href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons' /></a>
+					<a target="_blank" rel="noopener noreferrer"  href="https://www.instagram.com/pallet_305/"><FaInstagram id='icons' /></a>
+					<a target="_blank" rel="noopener noreferrer"  href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='icons' /></a>
 				</Col>
 			</Row>
 		</Container>
