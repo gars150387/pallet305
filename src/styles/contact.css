@@ -2,9 +2,8 @@
   margin: auto;
 }
 
-#contact-text {
-  margin-top: 50px;
-  padding-left: 600px;
+#contact-title{
+  margin: 15px;
 }
 Link{
     color: black
