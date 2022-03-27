@@ -1,14 +1,23 @@
 import React from "react";
 import { ContactForm } from "../component/ContactForm";
 
+import { Container, Row, Col } from "react-bootstrap";
+
 import '../../styles/contact.css'
 
 export const Contact = () => {
     return (
-        <div className="form">
-            {/* <h3 className="text-center mt-4">Contact</h3> */}
-            <h3 id="contact-text" className="">For quotation and questions, please contact us.</h3>
-            <ContactForm />
-        </div>
+        <Container>
+            <Row>
+                <Col></Col>
+                <Col xs={6}><h3 id="contact-title">For quotation and questions, please contact us.</h3></Col>
+                <Col></Col>
+            </Row>
+            <Row fluid="md">
+                <Col>
+                    <ContactForm />
+                </Col>
+            </Row>
+        </Container >
     )
 }
