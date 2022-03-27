@@ -14,7 +14,7 @@ export const Header = () => {
             <Row>
                 <Col><img src='/logo.png' alt='logo' id='logo' /></Col>
                 <Col xs={5}></Col>
-                <Col><a href="https://www.facebook.com/Pallet305"><FaFacebookF /></a> <a href="https://www.instagram.com/pallet_305/"><FaInstagram /></a>  <ImWhatsapp /></Col>
+                <Col><a href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons'/></a> <a href="https://www.instagram.com/pallet_305/"><FaInstagram id='icons' /></a>  <ImWhatsapp id='icons' /></Col>
             </Row>
         </Container>
 
