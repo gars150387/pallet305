@@ -2,13 +2,15 @@ import React from 'react'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
 
+import '../img/logo.png'
+
 import '../../styles/header.css'
 
 export const Header = () =>{
     return (
         <div>
-            <div className='row'>
-                <p>LOGO</p>
+            <div className='row' id='div-logo'>
+                <img src='/logo.png' alt='logo' id='logo' />
             </div>
             <div className='row'>
                 <div className='col-10'></div>
