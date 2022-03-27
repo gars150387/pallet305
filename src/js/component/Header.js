@@ -17,17 +17,5 @@ export const Header = () => {
                 <Col><a href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons'/></a> <a href="https://www.instagram.com/pallet_305/"><FaInstagram id='icons' /></a>  <ImWhatsapp id='icons' /></Col>
             </Row>
         </Container>
-
-
-
-        // <div>
-        //     <div className='row' id='div-logo'>
-
-        //     </div>
-        //     <div className='row'>
-        //         <div className='col-10'></div>
-        //         <div className='col-2'>  </div>
-        //     </div>
-        // </div>
     )
 }
