@@ -11,7 +11,7 @@ import '../../styles/footer.css'
 
 export const Footer = () => (
 	<div className="footer">
-		<Container className="sticky-bottom" bg="dark" variant="dark">
+		<Container>
 			<Row md={4}>
 				<Row></Row>
 				<Col><Link to="./about">
