@@ -1,7 +1,10 @@
 import React from "react";
 import { Row, Col, Navbar, Container, Nav } from 'react-bootstrap'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
-import { ImWhatsapp } from 'react-icons/im'
+import { ImWhatsapp } from 'react-icons/im';
+
+import '../img/logo.png';
+import '../img/officalLogo.jpg';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,7 +13,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const NavbarWebsite = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+                <Container>
+                    <Row>
+                        <Col><img src='/officalLogo.jpg' alt='logo' id='logo' /></Col>
+                        <Col xs={5}></Col>
+                    </Row>
+                </Container>
                 <Container>
                     <Navbar.Brand href="./"><h1>PALLET305</h1></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
