@@ -15,62 +15,62 @@ export const DesignData = [{
     img: '/58E5E329-E64F-4972-9392-A6CEAC17A913.JPG'
 }, {
     'id': 06,
-    img: '/'
+    img: '/66B913C7-B3DC-4FE5-93CC-D4AD67EB9379.JPG'
 }, {
     'id': 07,
-    img: '/'
+    img: '/69AFD7B7-FA23-4A54-AB51-7234A6795F2E.JPG'
 }, {
     'id': 08,
-    img: '/'
+    img: '/142B2076-642E-4451-8A54-F00F6822324A.JPG'
 }, {
     'id': 09,
-    img: '/'
+    img: '/567F3275-1455-4384-ABCC-53263531A3E1.JPG'
 }, {
     'id': 10,
-    img: '/'
+    img: '/85793fa7-72fb-492f-bc21-6a6def86bcf1.JPG'
 }, {
     'id': 11,
-    img: '/'
+    img: '/2562834a-fd18-45d3-b519-9edc954a3acd.JPG'
 }, {
     'id': 12,
-    img: '/'
+    img: '/61556755-B9B9-4DB0-8162-B38A736A693D.JPG'
 }, {
     'id': 13,
-    img: '/'
+    img: '/A9927117-9F9A-44C2-9BEF-35876E24C7DF.JPG'
 }, {
     'id': 14,
-    img: '/'
+    img: '/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.JPG'
 }, {
     'id': 15,
-    img: '/'
+    img: '/ED549812-A8F7-4D45-8697-116BA1FBB1F1.JPG'
 }, {
     'id': 16,
-    img: '/'
+    img: '/f358a545-0748-4364-8c33-75d0764380f2.JPG'
 }, {
     'id': 17,
-    img: '/'
+    img: '/FE859BF3-BE14-4E3F-A83C-5D4163248E01.JPG'
 }, {
     'id': 18,
-    img: '/'
+    img: '/IMG_4199.jpg'
 }, {
     'id': 19,
-    img: '/'
+    img: '/IMG_6388.jpg'
 }, {
     'id': 20,
-    img: '/'
+    img: '/IMG_6389.jpg'
 }, {
     'id': 21,
-    img: '/'
+    img: '/IMG_7267.jpg'
 }, {
     'id': 22,
-    img: '/'
+    img: '/IMG_7808.jpg'
 }, {
     'id': 23,
-    img: '/'
+    img: '/IMG_8029.jpg'
 }, {
     'id': 24,
-    img: '/'
+    img: '/IMG_8424.jpg'
 }, {
     'id': 25,
-    img: '/'
+    img: '/IMG_8585.jpg'
 }]
