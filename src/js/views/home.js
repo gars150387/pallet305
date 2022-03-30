@@ -1,50 +1,189 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
+import { Carousel, Row, Col, Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../styles/home.css'
-// import "../../img/image1.JPG"
+import '../../styles/home.css';
+
+// import '../img/IMG_7267.jpg'
+
+import '../img/IMG_7808.jpg';
+import '../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg';
+import '../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg';
 
 
 export const Home = () => {
 	return (
 		<div>
-			<Carousel>
-				<Carousel.Item>
-					<img
-						className="d-block w-100"
-						src="https://picsum.photos/200/300"
-						alt="First slide"
-					/>
-					{/* <Carousel.Caption>
-						<h3>First slide label</h3>
-						<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-					</Carousel.Caption> */}
-				</Carousel.Item>
-				<Carousel.Item>
-					<img
-						className="d-block w-100"
-						src="https://picsum.photos/200/300"
-						alt="Second slide"
-					/>
+			<Container>
+				<Row>
+					<Col>
+						<Carousel>
+							<Carousel.Item>
+								<Row>
+									<img
+										className="d-block w-100"
+										src={require("../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg").default}
+										alt="" />
+								</Row>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Row>
+									<img
+										className="d-block w-100"
+										src={require("../img/IMG_7808.jpg").default}
+										alt="" />
+								</Row>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Row>
+									<img
+										className="d-block w-100"
+										src={require("../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg").default}
+										alt="" />
 
-					{/* <Carousel.Caption>
-						<h3>Second slide label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					</Carousel.Caption> */}
-				</Carousel.Item>
-				<Carousel.Item>
-					<img
-						className="d-block w-100"
-						src="https://picsum.photos/200/300"
-						alt="Third slide"
-					/>
+								</Row>
+							</Carousel.Item>
+						</Carousel>
+					</Col>
+					<Col>
+						<Carousel>
+							<Carousel.Item>
+								<Row>
+									<img
+										className="d-block w-100"
+										src={require("../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg").default}
+										alt="" />
+								</Row>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Row>
+									<img
+										className="d-block w-100"
+										src={require("../img/IMG_7808.jpg").default}
+										alt="" />
+								</Row>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Row>
+									<img
+										className="d-block w-100"
+										src={require("../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg").default}
+										alt="" />
 
-					{/* <Carousel.Caption>
-						<h3>Third slide label</h3>
-						<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-					</Carousel.Caption> */}
-				</Carousel.Item>
-			</Carousel>
+								</Row>
+							</Carousel.Item>
+						</Carousel>
+					</Col>
+					<Col>
+						<Carousel>
+							<Carousel.Item>
+								<Row>
+									<img
+										className="d-block w-100"
+										src={require("../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg").default}
+										alt="" />
+								</Row>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Row>
+									<img
+										className="d-block w-100"
+										src={require("../img/IMG_7808.jpg").default}
+										alt="" />
+								</Row>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Row>
+									<img
+										className="d-block w-100"
+										src={require("../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg").default}
+										alt="" />
+
+								</Row>
+							</Carousel.Item>
+						</Carousel>
+					</Col>
+					{/* <Col>
+						<Carousel>
+							<Carousel.Item>
+								<Row>
+
+									<Col>
+										<img
+											className="d-block w-100"
+											src={require("../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg").default}
+											alt="" />
+									</Col>
+
+								</Row>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Row>
+
+									<Col>
+										<img
+											className="d-block w-100"
+											src={require("../img/IMG_7808.jpg").default}
+											alt="" />
+									</Col>
+
+								</Row>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Row>
+
+									<Col>
+										<img
+											className="d-block w-100"
+											src={require("../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg").default}
+											alt="" />
+									</Col>
+
+								</Row>
+							</Carousel.Item>
+						</Carousel>
+					</Col>
+					<Col>
+						<Carousel>
+							<Carousel.Item>
+								<Row>
+
+									<Col>
+										<img
+											className="d-block w-100"
+											src={require("../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg").default}
+											alt="" />
+									</Col>
+
+								</Row>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Row>
+
+									<Col>
+										<img
+											className="d-block w-100"
+											src={require("../img/IMG_7808.jpg").default}
+											alt="" />
+									</Col>
+
+								</Row>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Row>
+
+									<Col>
+										<img
+											className="d-block w-100"
+											src={require("../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg").default}
+											alt="" />
+									</Col>
+
+								</Row>
+							</Carousel.Item>
+						</Carousel>
+					</Col> */}
+				</Row>
+			</Container>
 		</div>
 	)
 };
