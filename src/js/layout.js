@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Home } from "./views/home";
 import injectContext from "./store/appContext";
 
-import { Header } from "./component/Header";
+// import { Header } from "./component/Header";
 import { NavbarWebsite } from "./component/Navbar";
 import { Footer } from "./component/footer";
 import { About } from "./views/About";
@@ -22,7 +22,7 @@ const Layout = () => {
 	return (
 		<div>
 			<BrowserRouter basename={basename}>
-					<Header />
+					{/* <Header /> */}
 					<NavbarWebsite />
 					<Switch>
 						<Route exact path="/">
