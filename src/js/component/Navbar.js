@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 export const NavbarWebsite = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                     <Row>
 
@@ -32,6 +32,7 @@ export const NavbarWebsite = () => {
                         <Col></Col>
                     </Row>
                 </Container>
+                
                 <Container>
                     <Row>
                         <Navbar.Brand href="./"><h1>PALLET305</h1></Navbar.Brand>
@@ -55,7 +56,7 @@ export const NavbarWebsite = () => {
                             </Nav>
                         </Navbar.Collapse>
                         <Col>
-                            <Row className="justify-content-md-center">
+                            <Row className="j">
                                 <Col xs lg="2">
                                     <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons' /></a>
                                 </Col>
