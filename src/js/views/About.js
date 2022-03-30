@@ -1,36 +1,14 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap';
+
+import '../img/front.jpg'
+import '../img/85793fa7-72fb-492f-bc21-6a6def86bcf1.jpg';
+import '../img/f358a545-0748-4364-8c33-75d0764380f2.jpg'
 
 export const About = () => {
     return (
         <div>
-            <Container>
-                {/* esto es para hacer espacio y presionar los componentes hacia abajo */}
-                <Row xs={1} md={2}>
-                    <Col>z</Col>
-                    <Col>z</Col>
-                    <Col>z</Col>
-                </Row>
-                <Row xs={1} md={2}>
-                    <Col>z</Col>
-                    <Col>z</Col>
-                    <Col>z</Col>
-                </Row>
-                <Row xs={1} md={2}>
-                    <Col>z</Col>
-                    <Col>z</Col>
-                    <Col>z</Col>
-                </Row>
-                <Row xs={1} md={2}>
-                    <Col>z</Col>
-                    <Col>z</Col>
-                    <Col>z</Col>
-                </Row>
-                <Row xs={1} md={2}>
-                    <Col>z</Col>
-                    <Col>z</Col>
-                </Row>
-
+            <Container className='aboutContainer'>
                 <Row>
                     <Col>
                         <h3 id="about">
@@ -38,12 +16,19 @@ export const About = () => {
                         </h3>
                     </Col>
                     <Col>
-                        <img src='' alt='' />
+                    <img
+								className="d-block w-100"
+								src={require("../img/front.jpg").default}
+								alt="" />
+                    
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <img src='' alt='' />
+                    <img
+								className="d-block w-100"
+								src={require("../img/85793fa7-72fb-492f-bc21-6a6def86bcf1.jpg").default}
+								alt="" />
                     </Col>
                     <Col>
                         <h3 id="about">
@@ -59,7 +44,10 @@ export const About = () => {
                         </h3>
                     </Col>
                     <Col>
-                        <img src='' alt='' />
+                    <img
+								className="d-block w-100"
+								src={require("../img/f358a545-0748-4364-8c33-75d0764380f2.jpg").default}
+								alt="" />
                     </Col>
                 </Row>
                 {/* <Row>
