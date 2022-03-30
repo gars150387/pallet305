@@ -11,25 +11,29 @@ import '../../styles/footer.css'
 
 export const Footer = () => (
 	<div className="footer">
-		<Navbar bg="dark" variant="dark" fixed="bottom">
+		<Navbar bg="dark" variant="dark" sticky="bottom">
 			<Container>
-				<Row md={4} >
+				<Row>
 					<Row></Row>
-					<Col><Link to="./about">
-						<h5 >About</h5>
-					</Link>
+					<Col>
+						<Link to="./about">
+							<h5 >About</h5>
+						</Link>
 						<Link to="./design">
 							<h5>Design</h5>
 						</Link>
 						<Link to="./contact">
 							<h5>Contact</h5>
-						</Link></Col>
-					<Col xs={6}><Link to="./policy">
-						<h5>Policy</h5>
-					</Link>
+						</Link>
+					</Col>
+					<Col>
+						<Link to="./policy">
+							<h5>Policy</h5>
+						</Link>
 						<Link to="./payment">
 							<h5>Payment</h5>
-						</Link></Col>
+						</Link>
+					</Col>
 					<Col>
 						<Row xs="auto">
 							<Col xs lg="2"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='iconsFooter' /></a></Col>
@@ -39,20 +43,18 @@ export const Footer = () => (
 					</Col>
 				</Row>
 			</Container>
-			<Container>
-				<Row>
-					<Col></Col>
-					<Col xs={5}>
-						<Row className="justify-content-md-center">
-							<Col xs lg="2"></Col>
-							<Col md="auto"><p>Copyright <CgCopyright /> 2022 Pallet305 </p></Col>
-							<Col xs lg="2"></Col>
-						</Row>
-					</Col>
-					<Col></Col>
-				</Row>
-			</Container>
 		</Navbar>
+		<Row>
+				<Col></Col>
+				<Col xs={5}>
+					<Row className="justify-content-md-center">
+						<Col xs lg="2"></Col>
+						<Col md="auto"><p>Copyright <CgCopyright /> 2022 Pallet305 </p></Col>
+						<Col xs lg="2"></Col>
+					</Row>
+				</Col>
+				<Col></Col>
+			</Row>
 		{/* <Container fixed="bottom">
 		</Container> */}
 	</div>
