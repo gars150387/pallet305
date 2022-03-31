@@ -18,7 +18,6 @@ export const NavbarWebsite = () => {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                     <Row>
-
                         <Col md="auto">
                             <Link to="/">
                                 <img src='/officalLogo.jpg'
@@ -32,43 +31,30 @@ export const NavbarWebsite = () => {
                         <Col></Col>
                     </Row>
                 </Container>
-                
+            </Navbar>
+            <Navbar id="secondNavbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Row>
-                        <Navbar.Brand href="./"><h1>PALLET305</h1></Navbar.Brand>
-                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                        <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="navbarOptions">
-                                <Nav.Link href="./about">About</Nav.Link>
-                                <Nav.Link href="./design">Design</Nav.Link>
-                                <Nav.Link eventKey={2} href="./contact">
-                                    Contact us
-                                </Nav.Link>
-                                <NavDropdown title="" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">English</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.2">Spanish</NavDropdown.Item>
-                                    {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
-                                </NavDropdown>
+                    <Navbar.Brand href="./"><h1>PALLET305</h1></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="me-auto">
+                            <Nav.Link href="./about">About</Nav.Link>
+                            <Nav.Link href="./design">Design</Nav.Link>
+                            <Nav.Link href="./contact">Contact Us</Nav.Link>
 
-                            </Nav>
-                        </Navbar.Collapse>
-                        <Col>
-                            <Row className="j">
-                                <Col xs lg="2">
-                                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons' /></a>
-                                </Col>
-                                <Col xs lg="2">
-                                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='icons' /></a>
-                                </Col>
-                                <Col xs lg="2">
-                                    <a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='icons' /></a>
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
+                        </Nav>
+                        <Nav>
+
+                            <Nav.Link eventKey={2} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons' /></Nav.Link>
+                            <Nav.Link eventKey={2} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='icons' /></Nav.Link>
+                            <Nav.Link eventKey={2} target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='icons' /></Nav.Link>
+                            <NavDropdown title="" id="collasible-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1">English</NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item href="#action/3.2">Spanish</NavDropdown.Item>
+                            </NavDropdown>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </div>
