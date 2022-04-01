@@ -6,7 +6,7 @@ import { ImWhatsapp } from 'react-icons/im'
 import { CgCopyright } from 'react-icons/cg'
 import { Navbar, Container, Row, Col } from "react-bootstrap";
 
-import { FaCcVisa, FaCcDiscover, FaCcMastercard } from 'react-icons/fa';
+import { FaCcVisa, FaCcDiscover, FaCcMastercard, FaMoneyBillAlt } from 'react-icons/fa';
 
 import '../../styles/footer.css'
 
