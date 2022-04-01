@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
 import { CgCopyright } from 'react-icons/cg'
-
 import { Navbar, Container, Row, Col } from "react-bootstrap";
+
+import { FaCcVisa, FaCcDiscover, FaCcMastercard } from 'react-icons/fa';
 
 import '../../styles/footer.css'
 
@@ -16,7 +17,7 @@ export const Footer = () => (
 				<Container>
 					<Row>
 						<Row></Row>
-						<Col>
+						<Col md="auto">
 							<Link to="./about">
 								<h5 >About</h5>
 							</Link>
@@ -27,7 +28,7 @@ export const Footer = () => (
 								<h5>Contact</h5>
 							</Link>
 						</Col>
-						<Col>
+						<Col md="auto">
 							<Link to="./policy">
 								<h5>Policy</h5>
 							</Link>
@@ -35,14 +36,21 @@ export const Footer = () => (
 								<h5>Payment</h5>
 							</Link>
 						</Col>
-						<Col>
-							<Row xs="auto">
-								<Col xs lg="2"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='iconsFooter' /></a></Col>
-								<Col xs lg="2"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='iconsFooter' /></a></Col>
-								<Col xs lg="2"><a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' /></a></Col>
-							</Row>
-						</Col>
+						<Col></Col>
 					</Row>
+					<Col md="auto">
+						<Row xs="auto">
+							<Col xs lg=""><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='iconsFooter' /></a></Col>
+							<Col xs lg=""><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='iconsFooter' /></a></Col>
+							<Col xs lg=""><a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' /></a></Col>
+						</Row>
+						<Row>
+							<Col>
+								<FaCcVisa /> <FaCcDiscover /> <FaCcMastercard /> <FaMoneyBillAlt />
+							</Col>
+						</Row>
+					</Col>
+
 				</Container>
 			</Navbar>
 			<Row>
