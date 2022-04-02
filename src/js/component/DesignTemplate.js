@@ -1,10 +1,12 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
+import "../../styles/design.css";
+
 export const DesignTemplate = ({img}) => {
     return (
         <Card className="bg-dark text-white">
-            <Card.Img src={ `../img/${ img }` } alt={ img } />
+            <Card.Img src={ `../img/${ img }` } alt={ img } id="designImg" />
             {/* <Card.ImgOverlay>
                 <Card.Title>Card title</Card.Title>
                 <Card.Text>
