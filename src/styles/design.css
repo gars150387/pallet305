@@ -1,0 +1,10 @@
+#designImg{
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    border: solid 2px whitesmoke;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
