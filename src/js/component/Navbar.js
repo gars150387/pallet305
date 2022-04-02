@@ -5,6 +5,7 @@ import { ImWhatsapp } from 'react-icons/im';
 
 import '../img/logo.png';
 import '../img/officalLogo.jpg';
+import '../img/white-logo-transparent-background.png'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,15 +13,17 @@ import '../../styles/navbar.css'
 import { Link } from "react-router-dom";
 
 
+
 export const NavbarWebsite = () => {
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Container>
+                <Container fluid className="text-center">
                     <Row>
-                        <Col md="auto">
+                        {/* <Col  xs={6} md={2}></Col> */}
+                        <Col className="text-start">
                             <Link to="/">
-                                <img src='/officalLogo.jpg'
+                                <img src='/white-logo-transparent-background.png'
                                     alt='logo'
                                     id='logo'
                                     width="10"
@@ -28,7 +31,7 @@ export const NavbarWebsite = () => {
                                 />
                             </Link>
                         </Col>
-                        <Col></Col>
+                        {/* <Col xs={6} md={2}></Col> */}
                     </Row>
                 </Container>
             </Navbar>
