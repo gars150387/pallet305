@@ -1,9 +1,17 @@
 import React from 'react'
+import { DesignTemplate } from '../component/DesignTemplate';
+import { DesignData } from '../component/DesignData';
 
 export const Design = ( ) =>{
+    const { img } = DesignData;
+    console.log( img )
     return (
         <div>
-            <h1>Design</h1>
+            {DesignData.map(({img, index }) =>{
+                return (
+                    <DesignTemplate key={ index } img={ img }/>
+                )
+            } )}
         </div>
     )
 }
