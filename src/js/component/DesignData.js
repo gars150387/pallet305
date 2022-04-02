@@ -1,76 +1,73 @@
 export const DesignData = [{
-    'id': 01,
-    img: '/2B3A74AF-F7FF-41C5-B435-E3EB2FF30C85[1].JPG'
+    img: '/2B3A74AF-F7FF-41C5-B435-E3EB2FF30C85[1].jpg'
 }, {
-    'id': 02,
-    img: '/18A20FB2-818E-4B72-BE1E-BDECCC52134D[1].JPG'
+    img: '/18A20FB2-818E-4B72-BE1E-BDECCC52134D[1].jpg'
 }, {
-    'id': 03,
-    img: '/29D529C0-9834-4926-A781-C6C881C0A2DE[1].JPG'
+    img: '/29D529C0-9834-4926-A781-C6C881C0A2DE[1].jpg'
 }, {
-    'id': 04,
-    img: '/37d5499f-af1e-46ca-a14a-892a230d5aa0[1].JPG'
+  
+    img: '/37d5499f-af1e-46ca-a14a-892a230d5aa0[1].jpg'
 }, {
-    'id': 05,
-    img: '/58E5E329-E64F-4972-9392-A6CEAC17A913.JPG'
+    
+    img: '/58E5E329-E64F-4972-9392-A6CEAC17A913.jpg'
 }, {
-    'id': 06,
-    img: '/66B913C7-B3DC-4FE5-93CC-D4AD67EB9379.JPG'
+    
+    img: '/66B913C7-B3DC-4FE5-93CC-D4AD67EB9379.jpg'
 }, {
-    'id': 07,
-    img: '/69AFD7B7-FA23-4A54-AB51-7234A6795F2E.JPG'
+    
+    img: '/69AFD7B7-FA23-4A54-AB51-7234A6795F2E.jpg'
 }, {
-    'id': 08,
-    img: '/142B2076-642E-4451-8A54-F00F6822324A.JPG'
+    
+    img: '/142B2076-642E-4451-8A54-F00F6822324A.jpg'
 }, {
-    'id': 09,
-    img: '/567F3275-1455-4384-ABCC-53263531A3E1.JPG'
+    
+    img: '/567F3275-1455-4384-ABCC-53263531A3E1.jpg'
 }, {
-    'id': 10,
-    img: '/85793fa7-72fb-492f-bc21-6a6def86bcf1.JPG'
+     
+    img: '/85793fa7-72fb-492f-bc21-6a6def86bcf1.jpg'
 }, {
-    'id': 11,
-    img: '/2562834a-fd18-45d3-b519-9edc954a3acd.JPG'
+     
+    img: '/2562834a-fd18-45d3-b519-9edc954a3acd.jpg'
 }, {
-    'id': 12,
-    img: '/61556755-B9B9-4DB0-8162-B38A736A693D.JPG'
+     
+    img: '/61556755-B9B9-4DB0-8162-B38A736A693D.jpg'
 }, {
-    'id': 13,
-    img: '/A9927117-9F9A-44C2-9BEF-35876E24C7DF.JPG'
+     
+    img: '/A9927117-9F9A-44C2-9BEF-35876E24C7DF.jpg'
 }, {
-    'id': 14,
-    img: '/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.JPG'
+     
+    img: '/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg'
 }, {
-    'id': 15,
-    img: '/ED549812-A8F7-4D45-8697-116BA1FBB1F1.JPG'
+     
+    img: '/ED549812-A8F7-4D45-8697-116BA1FBB1F1.jpg'
 }, {
-    'id': 16,
-    img: '/f358a545-0748-4364-8c33-75d0764380f2.JPG'
+    
+    img: '/f358a545-0748-4364-8c33-75d0764380f2.jpg'
 }, {
-    'id': 17,
-    img: '/FE859BF3-BE14-4E3F-A83C-5D4163248E01.JPG'
+    
+    img: '/FE859BF3-BE14-4E3F-A83C-5D4163248E01.jpg'
 }, {
-    'id': 18,
-    img: '/IMG_4199.jpg'
+     
+    img: '/img:_4199.jpg'
 }, {
-    'id': 19,
-    img: '/IMG_6388.jpg'
+     
+    img: '/img:_6388.jpg'
 }, {
-    'id': 20,
-    img: '/IMG_6389.jpg'
+     
+    img: '/img:_6389.jpg'
 }, {
-    'id': 21,
-    img: '/IMG_7267.jpg'
+     
+    img: '/img:_7267.jpg'
 }, {
-    'id': 22,
-    img: '/IMG_7808.jpg'
+     
+    img: '/img:_7808.jpg'
 }, {
-    'id': 23,
-    img: '/IMG_8029.jpg'
+     
+    img: '/img:_8029.jpg'
 }, {
-    'id': 24,
-    img: '/IMG_8424.jpg'
+     
+    img: '/img:_8424.jpg'
 }, {
-    'id': 25,
-    img: '/IMG_8585.jpg'
+     
+    img: '/img:_8585.jpg'
 }]
