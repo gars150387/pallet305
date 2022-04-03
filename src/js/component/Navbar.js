@@ -17,11 +17,10 @@ import { Link } from "react-router-dom";
 export const NavbarWebsite = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Container fluid className="text-center">
+            <Container id="headerContainer" fluid>
                     <Row>
-                        {/* <Col  xs={6} md={2}></Col> */}
-                        <Col className="text-start">
+                        {/* <Col xs lg="6"></Col> */}
+                        <Col  md={{ span: 6, offset: 3 }} className="text-center">
                             <Link to="/">
                                 <img src='/white-logo-transparent-background.png'
                                     alt='logo'
@@ -34,6 +33,7 @@ export const NavbarWebsite = () => {
                         {/* <Col xs={6} md={2}></Col> */}
                     </Row>
                 </Container>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             </Navbar>
             <Navbar id="secondNavbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
