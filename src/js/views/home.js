@@ -15,7 +15,7 @@ export const Home = () => {
 		<div>
 			<Container fluid>
 				<Row>
-					<Col>
+					<Col className="imgDiv">
 						<Carousel fade>
 							<Carousel.Item>
 								<Row>
@@ -53,7 +53,7 @@ export const Home = () => {
 							</Carousel.Item>
 						</Carousel>
 					</Col>
-					<Col>
+					<Col className="imgDiv">
 						<Carousel fade>
 							<Carousel.Item>
 								<Row>
@@ -91,7 +91,7 @@ export const Home = () => {
 							</Carousel.Item>
 						</Carousel>
 					</Col>
-					<Col>
+					<Col className="imgDiv">
 						<Carousel fade>
 
 							<Carousel.Item>
@@ -130,7 +130,7 @@ export const Home = () => {
 							</Carousel.Item>
 						</Carousel>
 					</Col>
-					<Col>
+					<Col className="imgDiv">
 						<Carousel fade>
 							<Carousel.Item>
 								<Row>
