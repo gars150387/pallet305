@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel, Row, Col, Container } from "react-bootstrap";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../styles/home.css';
 
@@ -17,7 +18,7 @@ export const Home = () => {
 				<Row>
 					<Col className="imgDiv">
 						<Carousel fade>
-							<Carousel.Item>
+							<Carousel.Item id="carouselItem">
 								<Row>
 									<img
 										className="d-block w-100"
@@ -55,7 +56,7 @@ export const Home = () => {
 					</Col>
 					<Col className="imgDiv">
 						<Carousel fade>
-							<Carousel.Item>
+							<Carousel.Item >
 								<Row>
 									<img
 										className="d-block w-100"
