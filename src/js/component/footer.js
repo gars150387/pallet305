@@ -68,9 +68,7 @@ export const Footer = () => (
 								{/* <Navbar.Brand></Navbar.Brand>
 								<Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
 								<Navbar.Collapse id="responsive-navbar-nav">
-									<Nav className="me-auto align-item-center">
-										<Col className="text-center"><p>Copyright <CgCopyright /> 2022 Pallet305 </p></Col>
-									</Nav>
+									<Col className="text-center"><p>Copyright <CgCopyright /> 2022 Pallet305 </p></Col>
 								</Navbar.Collapse>
 							</Container>
 						</Navbar>
