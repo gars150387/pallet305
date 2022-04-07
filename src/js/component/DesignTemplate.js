@@ -5,13 +5,11 @@ import "../../styles/design.css";
 
 export const DesignTemplate = ({ img }) => {
     return (
-        <Col sm >
+        <Col xs lg={5} >
             <Card className="bg-dark text-white">
-                <Row className="row no-gutters">
-                    <Col xs lg={8}>
-                        <Card.Img src={`../../img/${img}.jpg`} alt={img} id="designImg" />
-                    </Col>
-                </Row>
+                <Col>
+                    <Card.Img src={`${img}.jpg`} alt={img} id="designImg" />
+                </Col>
             </Card>
         </Col>
 
