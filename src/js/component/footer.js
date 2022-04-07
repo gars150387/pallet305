@@ -65,10 +65,8 @@ export const Footer = () => (
 					<Row className="justify-content-md-center">
 						<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="bottom">
 							<Container>
-								{/* <Navbar.Brand></Navbar.Brand>
-								<Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
 								<Navbar.Collapse id="responsive-navbar-nav">
-									<Col className="text-center"><p>Copyright <CgCopyright /> 2022 Pallet305 </p></Col>
+									<Col className="text-center"><p><CgCopyright /> 2022 Pallet305 </p></Col>
 								</Navbar.Collapse>
 							</Container>
 						</Navbar>
