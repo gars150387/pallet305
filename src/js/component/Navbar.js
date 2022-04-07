@@ -1,16 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Row, Col, Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
-import { FaFacebookF, FaInstagram } from 'react-icons/fa'
-import { ImWhatsapp } from 'react-icons/im';
 
 import '../img/logo.png';
 import '../img/officalLogo.jpg';
 import '../img/white-logo-transparent-background.png'
 
+import { FaFacebookF, FaInstagram } from 'react-icons/fa'
+import { ImWhatsapp } from 'react-icons/im';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../styles/navbar.css'
-import { Link } from "react-router-dom";
 
 
 
@@ -20,13 +20,11 @@ export const NavbarWebsite = () => {
             <Container id="headerContainer" fluid>
                     <Row>
                         {/* <Col xs lg="6"></Col> */}
-                        <Col  md={{ span: 6, offset: 3 }} className="text-center">
+                        <Col  md={{ span: 6, offset: 3 }} className="align-item-center">
                             <Link to="/">
                                 <img src='/white-logo-transparent-background.png'
                                     alt='logo'
                                     id='logo'
-                                    width="10"
-                                    height="250"
                                 />
                             </Link>
                         </Col>
