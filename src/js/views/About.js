@@ -26,18 +26,24 @@ export const About = () => {
                             Our priority is the customer, we are proud to be able to provide the best service and quality with our products.
                         </h4>
                     </Col>
-                    <Col>
+                    <Col xs lh={ 8 }>
                         <img
                             className="d-block w-100 m-4"
                             src={require("../img/front.jpg").default}
-                            alt="" />
+                            alt="front" />
 
                     </Col>
                 </Row>
                 <hr />
                 <Row>
-                    <Col className='m-2'><img src={require('../img/PHOTO-2022-03-24-15-34-13.jpg').default } alt='PHOTO-2022-03-24-15-34-13' /></Col>
-                    <Col ><img src='PHOTO-2022-03-24-15-34-37.jpg' alt='PHOTO-2022-03-24-15-34-37' /></Col>
+                    <Col >
+                        <img id='magazine' src='PHOTO-2022-03-24-15-34-13.jpg' alt='PHOTO-2022-03-24-15-34-13' />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col >
+                        <img id='magazine' src='PHOTO-2022-03-24-15-34-37.jpg' alt='PHOTO-2022-03-24-15-34-37' />
+                    </Col>
                 </Row>
             </Container>
         </div>
