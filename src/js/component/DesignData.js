@@ -11,7 +11,6 @@ import '../img/2562834a-fd18-45d3-b519-9edc954a3acd.jpg'
 import '../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg'
 import '../img/A9927117-9F9A-44C2-9BEF-35876E24C7DF.jpg'
 import '../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg'
-import '../img/ED549812-A8F7-4D45-8697-116BA1FBB1F1.jpg'
 import '../img/f358a545-0748-4364-8c33-75d0764380f2.jpg'
 import '../img/FE859BF3-BE14-4E3F-A83C-5D4163248E01.jpg'
 import '../img/IMG_4199.jpg'
@@ -30,9 +29,6 @@ export const DesignData = [{
 }, {
     img: '29D529C0-9834-4926-A781-C6C881C0A2DE[1]'
 }, {
-  
-    img: '37d5499f-af1e-46ca-a14a-892a230d5aa0[1]'
-}, {
     
     img: '58E5E329-E64F-4972-9392-A6CEAC17A913'
 }, {
@@ -49,9 +45,6 @@ export const DesignData = [{
     img: '567F3275-1455-4384-ABCC-53263531A3E1'
 }, {
      
-    img: '85793fa7-72fb-492f-bc21-6a6def86bcf1'
-}, {
-     
     img: '2562834a-fd18-45d3-b519-9edc954a3acd'
 }, {
      
@@ -62,12 +55,6 @@ export const DesignData = [{
 }, {
      
     img: 'E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9'
-}, {
-     
-    img: 'ED549812-A8F7-4D45-8697-116BA1FBB1F1'
-}, {
-    
-    img: 'f358a545-0748-4364-8c33-75d0764380f2'
 }, {
     
     img: 'FE859BF3-BE14-4E3F-A83C-5D4163248E01'
