@@ -1,10 +1,25 @@
 #designImg{
-    height: 500px;
-    width: 500px;
+    height: 800px;
+    width: 700px;
     border-radius: 15px;
-    border: solid 2px whitesmoke;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 10px;
+    border: solid 2px ;
+    align-items: center;
+    /* margin: auto; */
+    /* margin-left: 4px;
+    margin-top: 15px; */
+    /* margin-bottom: 15px; */
+    /* padding: 15px; */
+    
+}
+
+#template{
+    height: 820px;
+    width: 720px;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    /* align-items: center; */
+    border: solid 3px black;
+    border-radius: 15px;
+    /* margin: 15px; */
+    
 }
