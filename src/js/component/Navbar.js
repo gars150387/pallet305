@@ -18,19 +18,21 @@ export const NavbarWebsite = () => {
     return (
         <div>
             <Container id="headerContainer" fluid>
-                    <Row>
-                        {/* <Col xs lg="6"></Col> */}
-                        <Col  md={{ span: 6, offset: 3 }} className="align-item-center">
-                            <Link to="/">
-                                <img src='/white-logo-transparent-background.png'
-                                    alt='logo'
-                                    id='logo'
-                                />
-                            </Link>
-                        </Col>
-                        {/* <Col xs={6} md={2}></Col> */}
-                    </Row>
-                </Container>
+                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                    <Container>
+                        <Navbar.Collapse id="responsive-navbar-nav">
+                            <Col md={{ span: 6, offset: 3 }} className="justify-content-center">
+                                <Link to="/">
+                                    <img src='/white-logo-transparent-background.png'
+                                        alt='logo'
+                                        id='logo'
+                                    />
+                                </Link>
+                            </Col>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+            </Container>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             </Navbar>
             <Navbar id="secondNavbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
