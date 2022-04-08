@@ -12,7 +12,7 @@ import '../../styles/footer.css'
 
 export const Footer = () => (
 	<div className="footer">
-		<Container fluid>
+		<Container fluid className="mt-2">
 			<Navbar bg="dark" variant="dark">
 				<Container>
 					<Row>
