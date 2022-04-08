@@ -12,7 +12,7 @@ export const Design = () => {
         <div>
             <Container>
                 <Row>
-                    <Col>
+                    <Col md={{ span: 6, offset: 3 }} >
 
                         {DesignData.map((item) => {
 
