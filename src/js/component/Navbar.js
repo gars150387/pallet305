@@ -16,7 +16,7 @@ import '../../styles/navbar.css'
 
 export const NavbarWebsite = () => {
     return (
-        <div>
+        <div className="mb-2">
             <Container id="headerContainer" fluid>
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                     <Container>
