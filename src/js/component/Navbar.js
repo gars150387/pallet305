@@ -21,7 +21,7 @@ export const NavbarWebsite = () => {
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                     <Container>
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Col md={{ span: 6, offset: 3 }} className="justify-content-center">
+                            <Col  md={{ span: 8, offset: 4 }} className="justify-content-center">
                                 <Link to="/">
                                     <img src='/white-logo-transparent-background.png'
                                         alt='logo'
