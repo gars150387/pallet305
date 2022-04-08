@@ -16,23 +16,9 @@ import '../img/58E5E329-E64F-4972-9392-A6CEAC17A913.jpg'
 import '../img/66B913C7-B3DC-4FE5-93CC-D4AD67EB9379.jpg'
 import '../img/29D529C0-9834-4926-A781-C6C881C0A2DE[1].jpg'
 
-import '../img/69AFD7B7-FA23-4A54-AB51-7234A6795F2E.jpg'
+import '../img/FE859BF3-BE14-4E3F-A83C-5D4163248E01.jpg'
 import '../img/142B2076-642E-4451-8A54-F00F6822324A.jpg'
 import '../img/567F3275-1455-4384-ABCC-53263531A3E1.jpg'
-
-
-import '../img/85793fa7-72fb-492f-bc21-6a6def86bcf1.jpg'
-import '../img/2562834a-fd18-45d3-b519-9edc954a3acd.jpg'
-import '../img/f358a545-0748-4364-8c33-75d0764380f2.jpg'
-import '../img/FE859BF3-BE14-4E3F-A83C-5D4163248E01.jpg'
-import '../img/IMG_4199.jpg'
-import '../img/IMG_6388.jpg'
-import '../img/IMG_6389.jpg'
-import '../img/IMG_7267.jpg'
-import '../img/IMG_8029.jpg'
-import '../img/IMG_8424.jpg'
-import '../img/IMG_8585.jpg'
-
 
 export const Home = () => {
 	return (
@@ -132,7 +118,7 @@ export const Home = () => {
 								<Row>
 									<img
 										className="d-block w-100"
-										src={require("../img/69AFD7B7-FA23-4A54-AB51-7234A6795F2E.jpg").default}
+										src={require("../img/FE859BF3-BE14-4E3F-A83C-5D4163248E01.jpg").default}
 										alt="" />
 								</Row>
 							</Carousel.Item>
