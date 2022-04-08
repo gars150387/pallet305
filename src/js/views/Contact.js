@@ -10,7 +10,7 @@ export const Contact = () => {
         <Container>
             <Row>
                 <Col></Col>
-                <Col className="mt-5" xs={7}><h3 id="contact-title">For free quotation and questions, please contact us.</h3></Col>
+                <Col className="mt-2" xs={7}><h3 id="contact-title">For free quotation and questions, please contact us.</h3></Col>
                 <Col></Col>
             </Row>
             <Row fluid="md">
