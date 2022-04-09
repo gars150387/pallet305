@@ -13,16 +13,16 @@ export const CarouselElement = () => {
 		<>
 			<Container id="container-fluid" fluid>
 				<Row>
-					<Col className="imgDiv">
+					<Col id="item1" className="imgDiv animate__animated animate__backInLeft">
 						<CarouselItem1 />
 					</Col>
-					<Col className="imgDiv">
+					<Col id="item2"  className="imgDiv animate__animated animate__backInLeft">
 						<CarouselItem2 />
 					</Col>
-					<Col className="imgDiv">
+					<Col id="item3"  className="imgDiv animate__animated animate__backInRight">
 						<CarouselItem3 />
 					</Col>
-					<Col className="imgDiv">
+					<Col id="item4"  className="imgDiv animate__animated animate__backInRight">
 						<CarouselItem4 />
 					</Col>
 				</Row>
