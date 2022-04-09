@@ -45,8 +45,8 @@ export const Footer = () => (
 							<Col xs lg=""><a style={{ fontSize: "20px" }} target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' /></a></Col>
 						</Row>
 						<br />
-						<Row style={{ height: "15px" }}></Row>
-						<Row>
+						<Row style={{ height: "15px", color: "white" }}> <h4>We Accept:</h4></Row>
+						<Row className="mt-3">
 							<Col><FaCcVisa style={{ color: "white", fontSize: "50px" }} /></Col>
 							<Col><FaCcDiscover style={{ color: "white", fontSize: "50px" }} /></Col>
 							<Col><FaCcMastercard style={{ color: "white", fontSize: "50px" }} /></Col>
