@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
 import { CgCopyright } from 'react-icons/cg'
-import { Navbar, Container, Row, Col, Nav } from "react-bootstrap";
+import { Navbar, Container, Row, Col } from "react-bootstrap";
 
 import { FaCcVisa, FaCcDiscover, FaCcMastercard, FaMoneyBillAlt } from 'react-icons/fa';
+import { SiChase } from 'react-icons/si';
 
 import '../../styles/footer.css'
 
@@ -46,10 +47,11 @@ export const Footer = () => (
 						</Row>
 						<br />
 						<Row style={{ height: "15px", color: "white" }}> <h4>We Accept:</h4></Row>
-						<Row className="mt-3">
+						<Row  className="mt-3">
 							<Col><FaCcVisa style={{ color: "white", fontSize: "50px" }} /></Col>
 							<Col><FaCcDiscover style={{ color: "white", fontSize: "50px" }} /></Col>
 							<Col><FaCcMastercard style={{ color: "white", fontSize: "50px" }} /></Col>
+							<Col><SiChase style={{ color: "white", fontSize: "48px", paddingTop: "5px" }} /></Col>
 							<Col><FaMoneyBillAlt style={{ color: "white", fontSize: "55px" }} /></Col>
 						</Row>
 						<br />
