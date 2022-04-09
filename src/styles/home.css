@@ -19,12 +19,15 @@ img {
 
 .carousel-control-next{
     z-index: 0;  
+    color: transparent;
 }
 
 .carousel-control-prev{
     z-index: 0;
+    color: transparent;
 }
 
 .carousel-indicators{
     z-index: 0;
+    color: transparent;
 }
