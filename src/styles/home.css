@@ -16,3 +16,15 @@ img {
     padding: 0px;
     margin: 0px;
 }
+
+.carousel-control-next{
+    z-index: 0;  
+}
+
+.carousel-control-prev{
+    z-index: 0;
+}
+
+.carousel-indicators{
+    z-index: 0;
+}
