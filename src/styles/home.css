@@ -5,8 +5,14 @@ img {
 
 .imgDiv {
     padding: 0px;
+    margin: 0px;
 }
 
 #carouselItem{
     color: transparent;
+}
+
+#container-fluid{
+    padding: 0px;
+    margin: 0px;
 }
