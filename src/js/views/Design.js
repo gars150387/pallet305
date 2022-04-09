@@ -5,8 +5,6 @@ import { DesignData } from '../component/DesignData';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export const Design = () => {
-    
-    const id = Math.floor(Math.random() * 900 + 1)
 
     return (
         <div>
@@ -16,9 +14,10 @@ export const Design = () => {
 
                         {DesignData.map((item) => {
 
-                            console.log(item)
+                            const id = Math.floor(Math.random() * 900 + 1)
+
                             return (
-                                <DesignTemplate key={ id } img={item.img} />
+                                <DesignTemplate key={id} img={item.img} />
                             )
                         })}
                     </Col>
