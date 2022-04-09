@@ -22,7 +22,6 @@ const Layout = () => {
 	return (
 		<div>
 			<BrowserRouter basename={basename}>
-					{/* <Header /> */}
 					<NavbarWebsite />
 					<Switch>
 						<Route exact path="/">
