@@ -1,15 +1,15 @@
+.designComponent{
+    background-image: url('https://i.pinimg.com/originals/db/76/76/db7676a114b1da549b48477d9750b2b9.jpg');
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
 #designImg{
     height: 800px;
     width: 700px;
     border-radius: 15px;
     border: solid 2px ;
     align-items: center;
-    /* margin: auto; */
-    /* margin-left: 4px;
-    margin-top: 15px; */
-    /* margin-bottom: 15px; */
-    /* padding: 15px; */
-    
 }
 
 #template{
