@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 export const Design = () => {
 
     return (
-        <div>
+        <div className='designComponent'>
             <Container>
                 <Row>
                     <Col md={{ span: 6, offset: 3 }} >
