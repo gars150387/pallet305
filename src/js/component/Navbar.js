@@ -18,7 +18,7 @@ export const NavbarWebsite = () => {
     return (
         <div className="mb-2">
             <Container id="headerContainer" fluid>
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar collapseOnSelect expand="lg" bg="" variant="">
                     <Container>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Col  md={{ span: 8, offset: 4 }} className="justify-content-center">
