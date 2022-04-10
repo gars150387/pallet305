@@ -68,7 +68,7 @@ export const Footer = () => (
 						<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="bottom">
 							<Container>
 								<Navbar.Collapse id="responsive-navbar-nav">
-									<Col className="text-center"><p><CgCopyright /> 2022 Pallet305 </p></Col>
+									<Col className="text-center"><p><CgCopyright /> 2022 Pallet305. All rights reserved. </p></Col>
 								</Navbar.Collapse>
 							</Container>
 						</Navbar>
