@@ -9,8 +9,4 @@
     border-top: solid 2px white;
 }
 #headerContainer{
-    background-image: url('https://i.pinimg.com/originals/db/76/76/db7676a114b1da549b48477d9750b2b9.jpg');
-    background-size: contain;
-    height: 100;
-    background-repeat: repeat-x;
-}
+background-color: #212529;}
