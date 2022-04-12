@@ -29,14 +29,14 @@ export const Footer = () => (
 								<h5>Contact</h5>
 							</Link>
 						</Col>
-						<Col md="auto">
+						{/* <Col md="auto">
 							<Link to="./policy">
 								<h5>Policy</h5>
 							</Link>
 							<Link to="./payment">
 								<h5>Payment</h5>
 							</Link>
-						</Col>
+						</Col> */}
 						<Col></Col>
 					</Row>
 					<Col md="auto">
