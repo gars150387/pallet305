@@ -36,12 +36,12 @@ const Layout = () => {
 						<Route exact path="/contact">
 							<Contact />
 						</Route>
-						<Route exact path="/policy">
+						{/* <Route exact path="/policy">
 							<Policy />
 						</Route>
 						<Route exact path="/payment">
 							<Payment />
-						</Route>
+						</Route> */}
 						<Route>
 							<h1>Not found!</h1>
 						</Route>
