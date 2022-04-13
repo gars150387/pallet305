@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel, Row, Col, Container } from "react-bootstrap";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../styles/home.css';
+// import '../../styles/home.css';
 
 import '../img/58E5E329-E64F-4972-9392-A6CEAC17A913.jpg'
 import '../img/66B913C7-B3DC-4FE5-93CC-D4AD67EB9379.jpg'
@@ -19,7 +19,7 @@ export const CarouselItem3 = () => {
 							<Carousel.Item>
 								<Row>
 									<img
-										className="d-block w-100"
+										className="d-block"
 										src={require("../img/58E5E329-E64F-4972-9392-A6CEAC17A913.jpg").default}
 										alt="" />
 
@@ -28,7 +28,7 @@ export const CarouselItem3 = () => {
 							<Carousel.Item>
 								<Row>
 									<img
-										className="d-block w-100"
+										className="d-block"
 										src={require("../img/66B913C7-B3DC-4FE5-93CC-D4AD67EB9379.jpg").default}
 										alt="" />
 								</Row>
@@ -36,7 +36,7 @@ export const CarouselItem3 = () => {
 							<Carousel.Item>
 								<Row>
 									<img
-										className="d-block w-100"
+										className="d-block"
 										src={require("../img/29D529C0-9834-4926-A781-C6C881C0A2DE[1].jpg").default}
 										alt="" />
 								</Row>
