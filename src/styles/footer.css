@@ -14,7 +14,20 @@ a{
 }
 #iconsFooter{
     color: white;
-    margin-top: 40%;
+    height: auto;
+    width: auto;
+}
+
+#iconsFooterPayment{
+    color: white;
+    font-size: 40px;;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#iconsRow{
+    display: flex;
 }
 p{
     color: #ffffff8c;
