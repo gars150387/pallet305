@@ -36,7 +36,7 @@ export const About = () => {
                 </Row>
                 <hr />
                 <Row>
-                    <Col >
+                    <Col>
                         <img id='magazine' src='PHOTO-2022-03-24-15-34-13.jpg' alt='PHOTO-2022-03-24-15-34-13' />
                     </Col>
                 </Row>
