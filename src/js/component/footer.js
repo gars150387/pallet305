@@ -18,7 +18,7 @@ export const Footer = () => (
 				<Container>
 					<Row>
 						<Row></Row>
-						<Col md="auto">
+						<Col md={ 6 }>
 							<Link to="./about">
 								<h5 >About</h5>
 							</Link>
@@ -29,30 +29,22 @@ export const Footer = () => (
 								<h5>Contact</h5>
 							</Link>
 						</Col>
-						{/* <Col md="auto">
-							<Link to="./policy">
-								<h5>Policy</h5>
-							</Link>
-							<Link to="./payment">
-								<h5>Payment</h5>
-							</Link>
-						</Col> */}
-						<Col></Col>
+						{/* <Col></Col> */}
 					</Row>
-					<Col md="auto">
+					<Col md={ 4 }>
 						<Row xs="auto">
-							<Col xs lg=""><a style={{ fontSize: "20px" }} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='iconsFooter' /></a></Col>
-							<Col xs lg=""><a style={{ fontSize: "20px" }} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='iconsFooter' /></a></Col>
-							<Col xs lg=""><a style={{ fontSize: "20px" }} target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' /></a></Col>
+							<Col xs lg=""><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='iconsFooter' /></a></Col>
+							<Col xs lg=""><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='iconsFooter' /></a></Col>
+							<Col xs lg=""><a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' /></a></Col>
 						</Row>
 						<br />
-						<Row style={{ height: "15px", color: "white" }}> <h4>We Accept:</h4></Row>
-						<Row  className="mt-3">
-							<Col><FaCcVisa style={{ color: "white", fontSize: "50px" }} /></Col>
-							<Col><FaCcDiscover style={{ color: "white", fontSize: "50px" }} /></Col>
-							<Col><FaCcMastercard style={{ color: "white", fontSize: "50px" }} /></Col>
-							<Col><SiChase style={{ color: "white", fontSize: "48px", paddingTop: "5px" }} /></Col>
-							<Col><FaMoneyBillAlt style={{ color: "white", fontSize: "55px" }} /></Col>
+						<Row style={{ height: "15px", color: "white" }}> <h5>We Accept:</h5></Row>
+						<Row className="mt-3 align-justify">
+							<Col><FaCcVisa id="iconsFooterPayment"  style={{ color: "white"}} /></Col>
+							<Col><FaCcDiscover id="iconsFooterPayment"  style={{ color: "white"}} /></Col>
+							<Col><FaCcMastercard id="iconsFooterPayment"  style={{ color: "white"}} /></Col>
+							<Col><SiChase id="iconsFooterPayment"  style={{ color: "white"}} /></Col>
+							{/* <Col xs={2} ><FaMoneyBillAlt style={{ color: "white"}} /></Col> */}
 						</Row>
 						<br />
 
@@ -66,10 +58,10 @@ export const Footer = () => (
 				<Col xs={5}>
 					<Row className="justify-content-md-center">
 						<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="bottom">
-							<Container>
-								<Navbar.Collapse id="responsive-navbar-nav">
-									<Col className="text-center"><p><CgCopyright /> 2022 Pallet305. All rights reserved. </p></Col>
-								</Navbar.Collapse>
+							<Container className="justify-content-center">
+								<Navbar.Text>
+										<Col><p><CgCopyright /> 2022 Pallet305. All rights reserved. </p></Col>
+									</Navbar.Text>
 							</Container>
 						</Navbar>
 					</Row>
