@@ -5,19 +5,19 @@
 }
 
 #designImg{
-    height: 800px;
-    width: 700px;
+    height: 100%;
+    width: 100%;
     border-radius: 15px;
     border: solid 2px ;
     align-items: center;
 }
 
 #template{
-    height: 820px;
-    width: 720px;
+    /* height: 820px;
+    width: 720px; */
     border-radius: 25px;
     background-color: whitesmoke;
-    /* align-items: center; */
+    align-items: center;
     border: solid 3px black;
     border-radius: 15px;
     /* margin: 15px; */
