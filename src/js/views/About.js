@@ -31,15 +31,16 @@ export const About = () => {
             </Row>
             <hr />
             <Row>
-                <Col>
-                    <img id='magazine' src='PHOTO-2022-03-24-15-34-13.jpg' alt='PHOTO-2022-03-24-15-34-13' />
-                </Col>
-            </Row>
-            <Row>
                 <Col >
                     <img id='magazine' src='PHOTO-2022-03-24-15-34-37.jpg' alt='PHOTO-2022-03-24-15-34-37' />
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                    <img id='magazine' src='PHOTO-2022-03-24-15-34-13.jpg' alt='PHOTO-2022-03-24-15-34-13' />
+                </Col>
+            </Row>
+        
         </Container>
     )
 }
